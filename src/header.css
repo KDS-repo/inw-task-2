@@ -1,0 +1,56 @@
+.header {
+    background-color: white;
+    display: flex;
+    padding: 14px 24px;
+    justify-content: space-between;
+}
+
+header > * {
+    flex: 1 1 100%;
+}
+
+.header__name-box {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-left: 8px;
+}
+
+.header__name {
+    font-family: Poppins, monospace;
+    font-weight: 600;
+    font-size: 24px;
+    color: var(--brand-green);
+    text-transform: uppercase;
+    line-height: 100%;
+    display: block;
+}
+
+.header__navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 26px;
+}
+
+.header__direction {
+    font-family: Inter, serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+}
+
+.header__login-box {
+    display: flex;
+    justify-content: right;
+}
+
+.header__login {
+    font-family: Inter, serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: white;
+    background-color: var(--brand-green);
+    padding: 14px 24px;
+    border-radius: 8px;
+}

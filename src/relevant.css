@@ -1,0 +1,7 @@
+.relevant {
+    margin: 40px 80px 80px 80px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 40px;
+}
