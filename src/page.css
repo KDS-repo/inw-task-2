@@ -1,0 +1,6 @@
+.page {
+    margin: 40px 80px 80px 80px;
+    height: 606px;
+    display: flex;
+    column-gap: 40px;
+}
