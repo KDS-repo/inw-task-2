@@ -1,3 +1,38 @@
+@media (orientation: portrait) {
+    .header__toggle {
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        z-index: 1000;
+        display: block;
+    }
+    .header__hamburger-icon{
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        z-index: 1000;
+        display: block;
+    }
+    .header {
+        flex-direction: column;
+        position: fixed;
+    }
+    .header__navigation {
+        flex-direction: column;
+    }
+    .header__login-box {
+        justify-content: center;
+    }
+}
+
+@media (orientation: landscape) {
+    .header__toggle { display: none; }
+    .header__hamburger-icon { display: none; }
+    .header {
+        position: static;
+    }
+}
+
 .header {
     background-color: white;
     display: flex;
@@ -5,11 +40,8 @@
     justify-content: space-between;
 }
 
-header > * {
-    flex: 1 1 100%;
-}
-
 .header__name-box {
+    flex: 1 1 100%;
     display: flex;
     justify-content: left;
     align-items: center;
@@ -27,6 +59,7 @@ header > * {
 }
 
 .header__navigation {
+    flex: 1 1 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -41,6 +74,7 @@ header > * {
 }
 
 .header__login-box {
+    flex: 1 1 100%;
     display: flex;
     justify-content: right;
 }
