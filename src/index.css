@@ -15,22 +15,22 @@
 
 @font-face {
     font-family: Inter;
-    src: url(/fonts/Inter-VariableFont_opsz\,wght.ttf);
+    src: url(../fonts/Inter-VariableFont_opsz\,wght.ttf);
 }
 
 @font-face {
     font-family: LeagueGothic;
-    src: url(/fonts/LeagueGothic-Regular-VariableFont_wdth.ttf);
+    src: url(../fonts/LeagueGothic-Regular-VariableFont_wdth.ttf);
 }
 
 @font-face {
     font-family: Poppins;
-    src: url(/fonts/Poppins/Poppins-Medium.ttf) format(truetype);
+    src: url(../fonts/Poppins/Poppins-Medium.ttf) format(truetype);
     font-weight: 500;
 }
 
 @font-face {
     font-family: Poppins;
-    src: url(/fonts/Poppins/Poppins-SemiBold.ttf) format(truetype);
+    src: url(../fonts/Poppins/Poppins-SemiBold.ttf) format(truetype);
     font-weight: 600;
 }
