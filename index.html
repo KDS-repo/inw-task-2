@@ -5,9 +5,13 @@
     <meta name="description" content="Show Business news main page">
     <title>Blog</title>
     <link href="./src/index.css" rel="stylesheet">
+    <script src="./index.js"></script>
 </head>
-<body>
-    <header class="header">
+<body class="body">
+    <header id="menu" class="header" data-menu="false">
+        <button id="toggle" class="header__hamburger-container">
+            <img class="header__hamburger-icon" src="svg/burger-menu-svgrepo-com.svg">
+        </button>
         <div class="header__name-box">
             <a class="header__name">Show Business</a>
         </div>
@@ -21,7 +25,7 @@
             <a class="header__login">Log in</a>
         </div>
     </header>
-    <main>
+    <main class="main">
         <section class="page">
             <article class="main-article">
                 <img class="main-article__image" src="./img/image 892.jpg" alt="Photo of Princess Beatrice and Edoardo Mapelli Mozzi in wedding attire coming out of a church surrounded by flowers">

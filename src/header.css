@@ -1,3 +1,54 @@
+@media (orientation: portrait) {
+    .header__hamburger-container{
+        position: absolute;
+        border: 0;
+        padding: 0;
+        background: none;
+        top: 10px;
+        left: -60px;
+        z-index: 1000;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+    }
+    .header__hamburger-icon{
+        object-fit: contain;
+        color: var(--brand-green);
+        min-width: 0;
+        min-height: 0;
+    }
+    .header {
+        flex-direction: column;
+        row-gap: 24px;
+        position: fixed;
+        right: 0;
+        top: 0;
+        transform: translateX(100%);
+        transition: transform 0.3s ease-out;
+    }
+    .header__navigation {
+        flex-direction: column;
+        row-gap: 10px;
+    }
+    .header__login-box {
+        justify-content: center;
+    }
+    [data-menu="visible"].header {
+        transform: translateX(0);
+    }
+}
+
+@media (orientation: landscape) {
+    .header__toggle { display: none; }
+    .header__hamburger-icon { display: none; }
+    .header {
+        position: static;
+    }
+}
+
 .header {
     background-color: white;
     display: flex;
@@ -5,11 +56,8 @@
     justify-content: space-between;
 }
 
-header > * {
-    flex: 1 1 100%;
-}
-
 .header__name-box {
+    flex: 1 1 100%;
     display: flex;
     justify-content: left;
     align-items: center;
@@ -27,6 +75,7 @@ header > * {
 }
 
 .header__navigation {
+    flex: 1 1 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -41,6 +90,7 @@ header > * {
 }
 
 .header__login-box {
+    flex: 1 1 100%;
     display: flex;
     justify-content: right;
 }
