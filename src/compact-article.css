@@ -7,11 +7,11 @@
 }
 
 .compact-article__image {
-    flex: 1 1 100%;
+    flex: 1 0 100%;
     max-width: 100%;
     max-height: 242.69px;
     min-height: 0;
-    object-fit: cover;
+    object-fit:contain;
 }
 
 .compact-article__header {
