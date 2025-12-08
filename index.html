@@ -5,13 +5,13 @@
     <meta name="description" content="Show Business news main page">
     <title>Blog</title>
     <link href="./src/index.css" rel="stylesheet">
+    <script src="./index.js"></script>
 </head>
 <body class="body">
-    <header class="header">
-        <input type="checkbox" id="toggle" class="header__toggle"/>
-        <label for="toggle" class="header__hamburger-icon">
-            ☰
-        </label>
+    <header id="menu" class="header" data-menu="false">
+        <button id="toggle" class="header__hamburger-container">
+            <img class="header__hamburger-icon" src="svg/burger-menu-svgrepo-com.svg">
+        </button>
         <div class="header__name-box">
             <a class="header__name">Show Business</a>
         </div>
