@@ -42,7 +42,7 @@
 }
 
 @media (orientation: landscape) {
-    .header__toggle { display: none; }
+    .header__hamburger-container { display: none; }
     .header__hamburger-icon { display: none; }
     .header {
         position: static;
