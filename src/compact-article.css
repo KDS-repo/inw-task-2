@@ -2,16 +2,15 @@
     display: flex;
     flex-direction: column;
     row-gap: 16px;
-    max-height: 100%;
     max-width: 100%;
 }
 
 .compact-article__image {
-    flex: 1 1 100%;
+    flex: 1 0 100%;
     max-width: 100%;
     max-height: 242.69px;
     min-height: 0;
-    object-fit: cover;
+    object-fit:contain;
 }
 
 .compact-article__header {
@@ -26,5 +25,5 @@
     font-size: 18px;
     font-weight: 400;
     line-height: 160%;
-    margin: 0px;
+    margin: 0;
 }
